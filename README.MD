@@ -12,6 +12,6 @@ Projet n°9 de la formation Front-End OpenClassrooms
 
 ## Liens
 
-- [Jest coverage](https://to.add)
-- [Plan de test End-to-end : Parcours Employé](https://to.add)
+- [Jest coverage](https://github.com/Okuspo/OC_P9_Billed/blob/master/bill-app/Billed-app-FR-Front/jest_coverage_report.png)
+- [Plan de test End-to-end : Parcours Employé](https://github.com/Okuspo/OC_P9_Billed/blob/master/bill-app/Billed-app-FR-Front/src/E2E/End-to-end%20tests.md)
 - 
