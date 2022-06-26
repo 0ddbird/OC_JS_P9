@@ -1,0 +1,69 @@
+POURQUOI
+
+Problème identifié : certaines démarches de la vie courante semblent compliquées et fastidieuses.
+Exemple : acheter sa première voiture alors qu'on ne s'y connaît pas trop en mécanique, qu'on vient d'avoir son permis et qu'on peut difficilement comparer pour savoir si c'est bien ou pas.
+(Quand t'es tellement stressé à l'idée de planter la caisse en question que t'oublies que t'es venu pour l'essayer)
+Faire un prêt à la banque pour acheter sa première voiture.
+
+Louer son premier appart : galérer à louer faute de cautionnaire, ou différences de conditions entre pro et particulier (honoraires négociables, ou pas, + assurance loyer impayé, etc...)
+Réunir les documents administratifs pour la location.
+
+
+Toutes ces démarches, qui mènent pourtant vers un but encourageant (l'autonomie, la liberté de déplacements,...) peuvent être anxiogènes pour plusieurs raisons :
+
+1. On n'a pas forcément la visibilité sur ce qu'il faut faire de A à Z
+    a. Parfois nos proches ne savent pas
+    b. On ne peut/veut pas leur demander
+    c. Les infos sur le net peuvent être contradictoires ou dispersées sur plusieurs sites officiels ou non.
+
+2. Elles prennent du temps, et parfois ont un coût (€€) 
+
+3. On a peur de se faire avoir (ex un vendeur de voiture malhonnête)
+
+4. Une fois terminé, il y a souvent un "si j'avais sû ça avant, j'aurais fait les choses différement"
+
+5. Dans le cas des services publics Français, il y a beaucoup d'exceptions selon situation (ex : CAF des bateliers, critères APL, impôts, préavis de départ de logement raccourci à 1 mois selon départeemnts,...)
+
+
+QUOI
+Solution proposée :
+
+"Déjà Vu" : Une plate-forme collaborative (typ e Wikipedia), où les utilisateurs peuvent créer et/ou consulter des pages d'aide aux démarches de la vie courante.
+
+COMMENT
+L'objectif de la plate-forme est d'accompagner les gens (surtout des étudiants, ou jeunes actifs, mais aussi comme pense-bête pour les gens plus âgés).
+Cet objectif se décline en plusieurs sous-objectifs qui doivent être pris en compte à toute étape du projet :
+- Il faut que l'expérience utilisateur soit la plus simple possible : l'objectif est de simplifier les démarches, pas de démotiver les utilisateurs
+Pour cela, l'interface doit être simple (il y aura des champs à remplir, des checklists, mais tout doit rester minimaliste)
+- Il faut donner une visibilité sur l'intégralité du projet, c'est à dire que l'utilisateur doit savoir exactement quelles étapes indispensables il devra suivre, et avoir une estimation du temps de chaque étape.
+- Il faut qu'il sente qu'il a le contrôle : l'utilisateur doit pouvoir composer son projet à la carte, en intégrant des modules (en utilisant des pages existantes)
+par exemple : si l'achat d'une voiture nécessite un prêt à la banque, l'utilisateur doit pouvoir intégrer le module "Prêt à la banque" dans son projet "Achat voiture" : avec checklist, estimation du temps, documents à préparer.
+- Il faut que la plate-forme lui apporte un accompagnement personnalisé : ça passe par une approche en entonnoir selon les critères remplis + informations locales (ex : préavis d'1 mois au lieu de 3 à Montpellier)
+
+En résumé : si on veut savoir comment faire une démarche d'un point de vue théorique : on consulte la page, on télécharge éventuellement la checklist des docs à rassembler, et on utilise la checklist (dans son compte ou exportée dans une autre app)
+Si on veut faire une démarche de manière efficiente : on consulte la page, on affine ses conditions (ex : localisation, budget, délais, etc) pour que :
+(- Les étapes principales restent les mêmes)
+- Les étapes intermédiaires soient ajustées (ajoutées/supprimées)
+- Les commentaires et conseils des personnes étant dans une situation proche soient mis en avant.
+
+------------------------------------------
+
+Chaque page propose une marche à suivre pour une situation générique.
+Ex : acheter ma voiture, déménager en outre-mer ou  à l'étranger, préparer l'enterrement de vie de jeune fille d'une amie, les obsèques d'un proche, etc...
+
+Cette marche à suivre se présente globalement comme une checklist avec des grandes étapes clés.
+
+On part d'une démarche de la vie courante, par exemple "acheter ma première voiture", "louer mon premier appartement"
+
+Sans renseigner aucune donnée, on peut avoir accès à la checklist et s'en servir pour ses démarches.
+
+Si on renseigne sa localisation on changera la checklist pour qu'elle reflète mieux les étapes selon son pays/ sa région/ sa municipalité
+ça permettra également d'indiquer par exemple l'adresse de la préfecture ou de la mairie où se rendre si nécessaire
+Si on renseigne son âge on changera la checklist pour indiquer si des aides peuvent être débloquées
+Si on renseigne son délai, on retirera certaines étapes non indispensables si possible
+Si on renseigne d'autres données personnelles, on peut préremplir certains modèles de lettre puis les exporter en PDF ou les envoyer en ligne directement, ce qui fait gagner du temps.
+
+
+Notes : approche en entonnoir : cas générique "simple"  sans données requises
+Cas personnalisé selon formulaire et diversité des retours d'expériences partagés par les contributeurs
+
