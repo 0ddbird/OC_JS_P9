@@ -7,7 +7,6 @@ import Login from "../containers/Login.js";
 import { ROUTES } from "../constants/routes";
 import { fireEvent, screen } from "@testing-library/dom";
 
-// On vérifie qur l'utilisateur reste sur la page de Login si l'utilisateur soumet un formulaire vide
 describe("Given that I am a user on login page", () => {
   describe("When I do not fill fields and I click on employee button Login In", () => {
     test("Then It should renders Login page", () => {
@@ -28,9 +27,6 @@ describe("Given that I am a user on login page", () => {
     });
   });
 
-  /* On vérifie que l'utilisateur reste sur la page de Login si les valeurs des inputs ne respectent pas le format
-  Quels sont les critères d'un format valide et où sont-ils vérifiés ?
-  */
   describe("When I do fill fields in incorrect format and I click on employee button Login In", () => {
     test("Then It should renders Login page", () => {
       document.body.innerHTML = LoginUI();
@@ -49,12 +45,12 @@ describe("Given that I am a user on login page", () => {
       form.addEventListener("submit", handleSubmit);
       fireEvent.submit(form);
       expect(screen.getByTestId("form-employee")).toBeTruthy();
-    });
-  });
+    })
+  })
 
-  // Tests si saisie utilisateur est correcte
+
   describe("When I do fill fields in correct format and I click on employee button Login In", () => {
-    /* On vérifie que lors d'une saisie correcte du formulaire employé, on stock les valeurs dans le localStorage */
+
     test("Then I should be identified as an Employee in app", () => {
       document.body.innerHTML = LoginUI();
       const inputData = {

@@ -28,7 +28,7 @@
 
 **GIVEN** : Je suis connecté en tant qu'employé sur la page Dashboard
 **WHEN** : Je n'ai pas de factures existantes
-**THEN** : Mon dashboard contient uniquement le bouton "Nouvelle not de frais"
+**THEN** : Mon dashboard contient uniquement le bouton "Nouvelle note de frais"
 
 ## Scénario 6
 
@@ -52,7 +52,7 @@
 
 **GIVEN** : Je suis connecté en tant qu'employé sur la page "Envoyer une note de frais"
 **WHEN** : Je remplis correctement les champs suivants : Type de dépense, Nom de la dépense, Date, Montant TTC, TVA, Commentaire, Justificatif et je clique sur Envoyer
-**THEN** : Ma note de frais est soumise et je suis renvoyée au Dashboard
+**THEN** : Ma note de frais est soumise et je suis renvoyée au Dashboard. Ma nouvelle note de frais apparait dans la liste.
 
 ## Scénario 10
 

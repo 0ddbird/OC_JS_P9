@@ -85,72 +85,72 @@ import BillsUI from "../views/BillsUI.js";
 describe("Given I am a user connected as Employee", () => {
   describe("When I create new bill", () => {
     test("send bill to mock API POST", async () => {
-      localStorage.setItem("user", JSON.stringify({ type: "Employee", email: "a@a" }));
+      localStorage.setItem("user", JSON.stringify({ type: "Employee", email: "a@a" }))
       const root = document.createElement("div");
-      root.setAttribute("id", "root");
-      document.body.append(root);
-      router();
-      window.onNavigate(ROUTES_PATH.NewBill);
-      jest.spyOn(store, "bills");
+      root.setAttribute("id", "root")
+      document.body.append(root)
+      router()
+      window.onNavigate(ROUTES_PATH.NewBill)
+      jest.spyOn(store, "bills")
 
       store.bills.mockImplementationOnce(() => {
         return {
           create: (bill) => {
-            return Promise.resolve();
+            return Promise.resolve()
           },
-        };
-      });
+        }
+      })
 
       await new Promise(process.nextTick);
-      expect(screen.getByText("Mes notes de frais")).toBeTruthy();
-    });
+      expect(screen.getByText("Mes notes de frais")).toBeTruthy()
+    })
     describe("When an error occurs on API", () => {
       test("send bill to mock API POST", async () => {
-        localStorage.setItem("user", JSON.stringify({ type: "Employee", email: "a@a" }));
+        localStorage.setItem("user", JSON.stringify({ type: "Employee", email: "a@a" }))
         const root = document.createElement("div");
         root.setAttribute("id", "root");
         document.body.append(root);
         router();
-        window.onNavigate(ROUTES_PATH.NewBill);
+        window.onNavigate(ROUTES_PATH.NewBill)
         jest.spyOn(store, "bills");
 
         store.bills.mockImplementationOnce(() => {
           return {
             create: (bill) => {
-              return Promise.reject(new Error("Erreur 404"));
+              return Promise.reject(new Error("Erreur 404"))
             },
-          };
-        });
+          }
+        })
 
         await new Promise(process.nextTick);
-        const html = BillsUI({ error: "Erreur 404" });
-        document.body.innerHTML = html;
-        const message = await screen.getByText(/Erreur 404/);
-        expect(message).toBeTruthy();
+        const html = BillsUI({ error: "Erreur 404" })
+        document.body.innerHTML = html
+        const message = await screen.getByText(/Erreur 404/)
+        expect(message).toBeTruthy()
       });
       test("send bill to mock API POST", async () => {
-        localStorage.setItem("user", JSON.stringify({ type: "Employee", email: "a@a" }));
-        const root = document.createElement("div");
+        localStorage.setItem("user", JSON.stringify({ type: "Employee", email: "a@a" }))
+        const root = document.createElement("div")
         root.setAttribute("id", "root");
         document.body.append(root);
         router();
-        window.onNavigate(ROUTES_PATH.NewBill);
-        jest.spyOn(store, "bills");
+        window.onNavigate(ROUTES_PATH.NewBill)
+        jest.spyOn(store, "bills")
 
         store.bills.mockImplementationOnce(() => {
           return {
             create: (bill) => {
-              return Promise.reject(new Error("Erreur 500"));
+              return Promise.reject(new Error("Erreur 500"))
             },
-          };
-        });
+          }
+        })
 
         await new Promise(process.nextTick);
-        const html = BillsUI({ error: "Erreur 500" });
-        document.body.innerHTML = html;
-        const message = await screen.getByText(/Erreur 500/);
-        expect(message).toBeTruthy();
-      });
-    });
-  });
-});
+        const html = BillsUI({ error: "Erreur 500" })
+        document.body.innerHTML = html
+        const message = await screen.getByText(/Erreur 500/)
+        expect(message).toBeTruthy()
+      })
+    })
+  })
+})

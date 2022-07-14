@@ -119,6 +119,7 @@
 // Integration test : GET
 
 describe("When I navigate to Bills Page", () => {
+
   test("I get bills from the API GET method", async () => {
     const getSpy = jest.spyOn(store, "bills")
     const userBills = await store.bills().list()
@@ -126,6 +127,7 @@ describe("When I navigate to Bills Page", () => {
     expect(getSpy).toHaveBeenCalledTimes(1)
     expect(userBills.length).toBe(4)
   })
+
   test("API fetch fails with 404 error", async () => {
     store.bills.mockImplementationOnce(() => {
       return {
@@ -139,6 +141,7 @@ describe("When I navigate to Bills Page", () => {
     const message = await screen.getByText(/Erreur 404/)
     expect(message).toBeTruthy()
   })
+  
   test("API fetch fails with 500 error", async () => {
     store.bills.mockImplementationOnce(() => {
       return {

@@ -1,10 +1,18 @@
+# Billed
+
+## Documents utiles
+
+[Markdown Soutenance](https://github.com/Okuspo/Llinares_Giacomo_9_01022022/blob/master/bill-app/Billed-app-FR-Front/Soutenance.md)
+[Schéma codebase](https://whimsical.com/p9-billed-front-map-9Cdr8mQDUPCnAtBLs5BkWr)
 
 ## L'architecture du projet :
+
 Ce projet, dit frontend, est connecté à un service API backend que vous devez aussi lancer en local.
 
 Le projet backend se trouve ici: https://github.com/OpenClassrooms-Student-Center/Billed-app-FR-back
 
 ## Organiser son espace de travail :
+
 Pour une bonne organization, vous pouvez créer un dossier bill-app dans lequel vous allez cloner le projet backend et par la suite, le projet frontend:
 
 Clonez le projet backend dans le dossier bill-app :
